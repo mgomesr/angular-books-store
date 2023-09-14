@@ -1,0 +1,44 @@
+.small-books--container {
+    width: 150px;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.small-books--image{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.small-books--title {
+    width: 100%;
+    padding-bottom: 3px;
+}
+
+.small-books--title > h3 {
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+
+.small-books--author {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.small-books--author > p {
+    font-size: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}

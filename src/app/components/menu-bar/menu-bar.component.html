@@ -1,0 +1,19 @@
+<div class="menu-bar--container">
+    <a [routerLink]="['']" class="menu-bar--logo">
+        <img src="assets/logo-image.png" alt="" srcset="" height="30px" width="100px">
+    </a>
+    <div class="menu-bar--options">
+        <a [routerLink]="['books-list']" class="menu-bar--option">
+            <mat-icon>import_contacts</mat-icon>
+            <p>Books</p>
+        </a>
+        <a [routerLink]="['audiobooks-list']" class="menu-bar--option">
+            <mat-icon>headset_mic</mat-icon>
+            <p>AudioBooks</p>
+        </a>
+    </div>
+    <div class="menu-bar--search">
+        <input type="text" placeholder="Search all books...">
+        <mat-icon>search</mat-icon>
+    </div>
+</div>
