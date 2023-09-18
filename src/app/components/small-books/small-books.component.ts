@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-small-books',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./small-books.component.css']
 })
 export class SmallBooksComponent implements OnInit {
+  @Input() Id: string = '';
+  @Input() coverSmallBook: string = '';
+  @Input() titleSmallBook: string = '';
+  @Input() authorSmallBook: string = '';
+  private id: string | null = '1';
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+  
   }
 
 }

@@ -1,11 +1,11 @@
-<a href="#" class="small-books--container">
+<a [routerLink]="['','details-book', Id]" class="small-books--container">
     <div class="small-books--image">
-        <img src="assets/default_cover.jpg" alt="" srcset="" width="150px" height="180px">
+        <img src="{{ coverSmallBook }}" alt="" srcset="" width="150px" height="180px">
     </div>
     <div class="small-books--title">
-        <h3>O livro do livro padrão</h3>
+        <h3>{{ titleSmallBook }}</h3>
     </div>
     <div class="small-books--author">
-        <p>Default Author</p>
+        <p>{{ authorSmallBook }}</p>
     </div>
 </a>

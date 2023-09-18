@@ -16,6 +16,8 @@ import { BigCardPresentationComponent } from './components/big-card/big-card-pre
 import { BigCardCentralComponent } from './components/big-card/big-card-central/big-card-central.component';
 import { BigCardRightComponent } from './components/big-card/big-card-right/big-card-right.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
+import { DetailsComponent } from './pages/details/details.component';
+import { DetailsBookComponent } from './components/details-book/details-book.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { SmallCardComponent } from './components/small-card/small-card.component
     BigCardPresentationComponent,
     BigCardCentralComponent,
     BigCardRightComponent,
-    SmallCardComponent
+    SmallCardComponent,
+    DetailsComponent,
+    DetailsBookComponent
   ],
   imports: [
     BrowserModule,

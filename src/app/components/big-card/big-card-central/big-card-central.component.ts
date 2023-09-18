@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-big-card-central',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./big-card-central.component.css']
 })
 export class BigCardCentralComponent implements OnInit {
+  @Input() coverImageCentral: string = '';
 
   constructor() { }
 

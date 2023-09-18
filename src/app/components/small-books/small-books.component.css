@@ -23,7 +23,7 @@
 }
 
 .small-books--title > h3 {
-    font-size: 13px;
+    font-size: 12px;
     display: -webkit-box;
     -webkit-line-clamp: 1;
     overflow: hidden;
@@ -36,7 +36,7 @@
 }
 
 .small-books--author > p {
-    font-size: 12px;
+    font-size: 11px;
     display: -webkit-box;
     -webkit-line-clamp: 1;
     overflow: hidden;

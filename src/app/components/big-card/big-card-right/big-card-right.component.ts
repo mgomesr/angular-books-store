@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-big-card-right',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./big-card-right.component.css']
 })
 export class BigCardRightComponent implements OnInit {
+@Input() coverImageRightAuthor: string = '';
+@Input() coverImageRightAudiobook: string = '';
 
   constructor() { }
 

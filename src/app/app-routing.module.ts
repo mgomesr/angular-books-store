@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BooksListComponent } from './pages/books-list/books-list.component';
 import { AudiobooksListComponent } from './pages/audiobooks-list/audiobooks-list.component';
 import { HomeComponent } from './pages/home/home.component';
+import { DetailsComponent } from './pages/details/details.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'audiobooks-list',
     component: AudiobooksListComponent
+  },
+  {
+    path: 'details-book/:id',
+    component: DetailsComponent
   }
 ];
 
